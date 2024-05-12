@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bookshelf App</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <div class="bookshelf" id="unfinished-books">
+        <h2>Belum Selesai Dibaca</h2>
+        <ul id="unfinished-list"></ul>
+    </div>
+    <div class="bookshelf" id="finished-books">
+        <h2>Selesai Dibaca</h2>
+        <ul id="finished-list"></ul>
+    </div>
+</div>
+
+<div class="modal-bg">
+    <div class="modal">
+        <h2>Tambah Buku Baru</h2>
+        <input type="text" id="title" placeholder="Judul Buku">
+        <input type="text" id="author" placeholder="Penulis">
+        <input type="number" id="year" placeholder="Tahun">
+        <label for="isComplete">Selesai Dibaca</label>
+        <input type="checkbox" id="isComplete">
+        <button onclick="menambahElemenBukuBelumSelesai()">Tambahkan</button>
+        <button onclick="closeModal()">Batal</button>
+    </div>
+</div>
+
+
+<button class="add-btn" onclick="openModal()">Tambah Buku</button>
+
+<script src="hirarchi.js"></script>
+</body>
+</html>
