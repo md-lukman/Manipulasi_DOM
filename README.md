@@ -1,1 +1,3 @@
-![image](https://github.com/md-lukman/Manipulasi_DOM/assets/129524518/7914a7b0-5b95-4da1-b844-8b6add30ee87)
+![image](https://github.com/md-lukman/Manipulasi_DOM/assets/129524518/993bf3ec-ea28-4413-ba78-bb7a4f38e476)
+![image](https://github.com/md-lukman/Manipulasi_DOM/assets/129524518/e1dcb5c0-5e3d-43ad-a3b2-199c4dc62dac)
+
